@@ -1,0 +1,6 @@
+import <stdcli>
+namespace cli;//可以变
+pub func main(){
+    cli.print([],"hello world");
+}
+//我自己设计的
