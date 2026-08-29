@@ -6,11 +6,3 @@ namespace Quantum.HelloWorld {
         Message("hello world!");
         MeasureSingleQubit();
     }
-
-    operation MeasureSingleQubit() : Unit {
-        use qubit = Qubit();
-        H(qubit);
-        let result = M(qubit);
-        Reset(qubit);
-    }
-}
